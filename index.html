@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kimi K3 tool proof — a minimal single-page proof that the model successfully created and pushed this site.">
+  <meta name="theme-color" content="#0f172a">
+  <title>Kimi K3 tool proof</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f172a'/%3E%3Cpath d='M18 33l10 10 18-22' stroke='%2338bdf8' stroke-width='7' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: #f8fafc;
+      color: #0f172a;
+      line-height: 1.6;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.25rem;
+    }
+    .card {
+      max-width: 42rem;
+      width: 100%;
+      text-align: center;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 1rem;
+      padding: clamp(2rem, 6vw, 3.5rem);
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 50%;
+      background: #0f172a;
+      margin-bottom: 1.5rem;
+    }
+    .badge svg {
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+    h1 {
+      font-size: clamp(1.75rem, 5vw, 2.5rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+    }
+    p {
+      font-size: clamp(1rem, 2.5vw, 1.125rem);
+      color: #475569;
+    }
+    footer {
+      padding: 1.25rem;
+      text-align: center;
+      font-size: 0.8125rem;
+      color: #94a3b8;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background: #0b1120; color: #e2e8f0; }
+      .card { background: #111827; border-color: #1f2937; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35); }
+      .badge { background: #38bdf8; }
+      p { color: #94a3b8; }
+      footer { color: #64748b; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card" aria-labelledby="page-heading">
+      <span class="badge" aria-hidden="true">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 33l10 10 18-22" stroke="#0f172a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <h1 id="page-heading">Kimi K3 tool proof</h1>
+      <p>The model successfully created and pushed this site.</p>
+    </section>
+  </main>
+  <footer>
+    <small>Minimal single-page proof &middot; <span id="year">2026</span></small>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
